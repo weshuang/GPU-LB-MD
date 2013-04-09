@@ -1,0 +1,471 @@
+﻿Build started 2013/4/2 下午 11:43:26.
+     1>Project "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\medianFilter.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32/Release/medianFilter.lastbuildstate".
+       CudaClean:
+         cmd.exe /C "C:\Users\Wes\AppData\Local\Temp\2f6ce78ed58043e89d9206f3ed696ce6.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -ccbin "c:\Program Files\Microsoft Visual Studio 10.0\VC\bin"  -I"./" -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\/../../common/inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"     --keep-dir "Release" -maxrregcount=0 --ptxas-options=-v --machine 32 --compile -arch=sm_11     -DWIN32 -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MT  " -o "Win32/Release/medianFilter_kernel.cu.obj" "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\medianFilter_kernel.cu" -clean
+         
+         C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -ccbin "c:\Program Files\Microsoft Visual Studio 10.0\VC\bin"  -I"./" -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\/../../common/inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"     --keep-dir "Release" -maxrregcount=0 --ptxas-options=-v --machine 32 --compile -arch=sm_11     -DWIN32 -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MT  " -o "Win32/Release/medianFilter_kernel.cu.obj" "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\medianFilter_kernel.cu" -clean 
+         Deleting file "Win32/Release/medianFilter_kernel.cu.deps".
+       InitializeBuildStatus:
+         Creating "Win32/Release/medianFilter.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_MBCS /I./ /I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\/../../common/inc" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I. /FIcuda_runtime.h /c "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\medianFilter_kernel.cu" 
+       AddCudaCompilePropsDeps:
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "UseHostInclude".
+         Found "Keep".
+         Found "KeepDir".
+         Found "GenerateRelocatableDeviceCode".
+         Found "NvccCompilation".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "CInterleavedPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "GenerateLineInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "AdditionalCompilerOptions".
+         Found "Defines".
+         Found "UseHostDefines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+         Found "PerformDeviceLink".
+         Found "LinkOut".
+         Found "AdditionalLibraryDirectories".
+         Found "UseHostLibraryDirectories".
+         Found "AdditionalDependencies".
+         Found "UseHostLibraryDependencies".
+         Found "GPUDebugInfo".
+         Found "Optimization".
+         Found "CodeGeneration".
+         Found "TargetMachinePlatform".
+         Found "Warning".
+         Found "RuntimeChecks".
+         Found "Runtime".
+         Found "TypeInfo".
+         Found "AdditionalCompilerOptions".
+         Found "Inputs".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       CudaBuild:
+         Compiling CUDA source file medianFilter_kernel.cu...
+         cmd.exe /C "C:\Users\Wes\AppData\Local\Temp\8bc9f3c3e0a542f0a6a67028331660e7.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files\Microsoft Visual Studio 10.0\VC\bin"  -I"./" -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\/../../common/inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"     --keep-dir "Release" -maxrregcount=0 --ptxas-options=-v --machine 32 --compile -arch=sm_11     -DWIN32 -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MT  " -o "Win32/Release/medianFilter_kernel.cu.obj" "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\medianFilter_kernel.cu"
+         
+         C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files\Microsoft Visual Studio 10.0\VC\bin"  -I"./" -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\/../../common/inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"     --keep-dir "Release" -maxrregcount=0 --ptxas-options=-v --machine 32 --compile -arch=sm_11     -DWIN32 -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MT  " -o "Win32/Release/medianFilter_kernel.cu.obj" "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\medianFilter_kernel.cu" 
+         medianFilter_kernel.cu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par1" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par2" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par3" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par4" was declared but never referenced
+         
+         medianFilter_kernel.cu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par1" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par2" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par3" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par4" was declared but never referenced
+         
+         tmpxft_00001338_00000000-14_medianFilter_kernel.compute_11.cudafe1.gpu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         tmpxft_00001338_00000000-20_medianFilter_kernel.compute_11.cudafe2.gpu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         medianFilter_kernel.cu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par1" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par2" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par3" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par4" was declared but never referenced
+         
+         tmpxft_00001338_00000000-11_medianFilter_kernel.compute_10.cudafe1.gpu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         tmpxft_00001338_00000000-24_medianFilter_kernel.compute_10.cudafe2.gpu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         medianFilter_kernel.cu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par1" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par2" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par3" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par4" was declared but never referenced
+         
+         tmpxft_00001338_00000000-8_medianFilter_kernel.compute_20.cudafe1.gpu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         tmpxft_00001338_00000000-28_medianFilter_kernel.compute_20.cudafe2.gpu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         medianFilter_kernel.cu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par1" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par2" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par3" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par4" was declared but never referenced
+         
+         tmpxft_00001338_00000000-5_medianFilter_kernel.compute_30.cudafe1.gpu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         tmpxft_00001338_00000000-32_medianFilter_kernel.compute_30.cudafe2.gpu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         tmpxft_00001338_00000000-2_medianFilter_kernel.compute_35.cudafe1.gpu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         tmpxft_00001338_00000000-35_medianFilter_kernel.compute_35.cudafe2.gpu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         medianFilter_kernel.cu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par1" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par2" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par3" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par4" was declared but never referenced
+         
+         ptxas : info : 12 bytes gmem, 8 bytes cmem[0], 8 bytes cmem[14]
+         ptxas : info : Compiling entry function '_Z8mfKernelPK3RGBPS_iii' for 'sm_11'
+         ptxas : info : Used 21 registers, 804 bytes smem, 12 bytes cmem[1], 27 bytes lmem
+         medianFilter_kernel.cu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par1" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par2" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par3" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par4" was declared but never referenced
+         
+         ptxas : info : 12 bytes gmem, 8 bytes cmem[0], 8 bytes cmem[14]
+         ptxas : info : Compiling entry function '_Z8mfKernelPK3RGBPS_iii' for 'sm_10'
+         ptxas : info : Used 21 registers, 804 bytes smem, 12 bytes cmem[1], 27 bytes lmem
+         medianFilter_kernel.cu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par1" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par2" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par3" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par4" was declared but never referenced
+         
+         ptxas : info : 12 bytes gmem, 8 bytes cmem[2], 8 bytes cmem[14]
+         ptxas : info : Compiling entry function '_Z8mfKernelPK3RGBPS_iii' for 'sm_20'
+         ptxas : info : Function properties for _Z8mfKernelPK3RGBPS_iii
+             32 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+         ptxas : info : Used 21 registers, 768 bytes smem, 52 bytes cmem[0], 12 bytes cmem[16]
+         medianFilter_kernel.cu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par1" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par2" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par3" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par4" was declared but never referenced
+         
+         ptxas : info : 12 bytes gmem, 8 bytes cmem[3]
+         ptxas : info : Compiling entry function '_Z8mfKernelPK3RGBPS_iii' for 'sm_30'
+         ptxas : info : Function properties for _Z8mfKernelPK3RGBPS_iii
+             32 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+         ptxas : info : Used 18 registers, 768 bytes smem, 340 bytes cmem[0], 12 bytes cmem[2]
+         medianFilter_kernel.cu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\device_functions.h(1662): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par1" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par2" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par3" was declared but never referenced
+         
+     1>C:/ProgramData/NVIDIA Corporation/CUDA Samples/v5.0/cudahw1/medianFilter/medianFilter_kernel.cu(64): warning : variable "par4" was declared but never referenced
+         
+         ptxas : info : 12 bytes gmem, 8 bytes cmem[3]
+         ptxas : info : Compiling entry function '_Z8mfKernelPK3RGBPS_iii' for 'sm_35'
+         ptxas : info : Function properties for _Z8mfKernelPK3RGBPS_iii
+             32 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+         ptxas : info : Used 18 registers, 768 bytes smem, 340 bytes cmem[0], 12 bytes cmem[2]
+         tmpxft_00001338_00000000-14_medianFilter_kernel.compute_11.cudafe1.cpp
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(876): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(2750): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(4608): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(5503): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(6405): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.0\include\math_functions.h(7317): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         tmpxft_00001338_00000000-48_medianFilter_kernel.compute_11.ii
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32/Release/" /Fd"Win32/Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt medianFilter.cpp medianFilter_gold.cpp
+         medianFilter.cpp
+     1>medianFilter.cpp(100): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>medianFilter.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+     1>medianFilter.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>medianFilter.cpp(131): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>medianFilter.cpp(134): warning C4018: '<' : signed/unsigned mismatch
+     1>medianFilter.cpp(136): warning C4018: '<' : signed/unsigned mismatch
+         medianFilter_gold.cpp
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"./win32/Release//medianFilter.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32/include" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" /LIBPATH:../../common/lib/Win32 cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32/Release/medianFilter.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\win32\Release\medianFilter.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"./win32/Release/medianFilter.lib" /MACHINE:X86 Win32/Release/medianFilter_kernel.cu.obj
+         Win32/Release/medianFilter.obj
+         Win32/Release/medianFilter_gold.obj
+         Generating code
+         Finished generating code
+         medianFilter.vcxproj -> C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\./win32/Release/medianFilter.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"./win32/Release//medianFilter.exe;#1" /manifest Win32/Release/medianFilter.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32/Release/medianFilter.unsuccessfulbuild".
+         Touching "Win32/Release/medianFilter.lastbuildstate".
+     1>Done Building Project "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.0\cudahw1\medianFilter\medianFilter.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:51.58
