@@ -8,7 +8,7 @@ Platform and Device
 2. NVDIA, CPU
 3. CUDA
 
-Milestones
+Key features
 =========
 1. parallelized LB code with bouncing-back boundary condition.
 2. parallelized MD code
@@ -20,10 +20,10 @@ Milestones
 Specifications
 =========
 0. Code for single CPU and single GPU 
-1. Three major simulation system
-  → LB for fluid simulation only
-  → MD for particle simulation with any combination of model A,B,C
-  → LB coupled with MD simulation
+1. Suitable for three major simulation systems
+  (a) LB for fluid simulation only
+  (b) MD for particle simulation with any combination of model A,B,C
+  (c) LB coupled with MD simulation
 
 2. LB
   → one kind of fluid only
@@ -54,7 +54,7 @@ Specifications
       model A, B, C : .vtk
   → already-available libraries
     (a) OpenMM : https://simtk.org/home/openmm
-      (CUDA-accelrated, has existing models for 2-1, 2-2)
+      (CUDA-accelrated, has preexisting model for model A, model B)
     (b) Espresso : http://www.quantum-espresso.org/?p=466
       (multi-CPU-accelrated)
 
@@ -65,10 +65,10 @@ Future goal
 
 Schedule
 =========
-1. 4/9 ~ 4/19
+1. ~ 2013/4/19
   (1) Review
   (2) Get acquianted with CUDA programming environment on linux server, learn github
-  (3) Settle down the algorithm and structure
+  (3) Discussion on algorithm and structure
 2. 
   (a) Write a skeleton code for our purpose
   (b) Write kernel code (LB)
